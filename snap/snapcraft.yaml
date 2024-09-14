@@ -27,5 +27,5 @@ parts:
 
 apps:
   hello:
-    command: hello
+    command: opt/hello/bin/hello
 
