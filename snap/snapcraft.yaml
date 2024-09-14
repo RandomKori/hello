@@ -28,4 +28,9 @@ parts:
 apps:
   hello:
     command: opt/hello/bin/hello
+    plugs:
+    - desktop
+    - desktop-legacy
+    - wayland
+
 
